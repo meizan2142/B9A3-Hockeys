@@ -16,11 +16,14 @@
         .manrope {
             font-family: "Manrope", sans-serif;
         }
+        .radial-progress::after {
+            display: none;
+        }
     </style>
 </head>
 
-<body class="">
-    <header class="lg:mt-7 manrope lg:w-[1300px] mx-auto">
+<body class="manrope">
+    <header class="lg:mt-7 lg:w-[1300px] mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start gap-2 m-2">
                 <div class="dropdown lg:hidden">
@@ -103,9 +106,52 @@
                     hockey players captivate fans worldwide with thrilling performances on the rink or field.</p>
             </div>
         </section>
+        <hr class="text-[#13131833] border-dashed mt-10 lg:mt-24 ml-4 mr-4 lg:mr-0 lg:ml-0">
     </header>
-    <main>
+    <main class="lg:w-[1300px] mx-auto">
 
+        <!-- Professional Hockeys Club -->
+
+        <section>
+            <div class="text-center mt-8 space-y-4 mx-4">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Professional Hockeys Club</h1>
+                <p class="text-[#13131899] font-medium text-sm lg:text-base">
+                    The professional hockey club stands as a beacon of excellence, bringing together skilled athletes, <br> passionate fans,  and a rich tradition of the sport, fostering a legacy of achievement on the ice.</p>
+            </div>
+            <hr class="text-[#13131833] border-dashed mt-4 lg:mt-6 ml-4 mr-4 lg:mr-0 lg:ml-0">
+            <!-- Radial Progress -->
+            <div class="Radial-progress grid grid-cols-1 lg:grid-cols-4 lg:mt-12 mt-9 space-y-6 lg:space-y-0 text-center">
+                <div class="space-y-4">
+                    <div class="radial-progress space-y-3 bg-[#E7E7E8] text-[#FF4240] w-28 h-28 " style="--value:70;" role="progressbar"><p class="bg-white rounded-full py-8 px-6 text-2xl font-extrabold text-black">70%</p></div>
+                    <div class="space-y-3 ">
+                        <h1 class="text-xl font-semibold">Player Facility</h1>
+                        <p class="text-[#13131899] text-base font-normal">Hockey player facility <br> fosters excellence.</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress space-y-3 bg-[#E7E7E8] text-[#49D293] w-28 h-28 " style="--value:95;" role="progressbar"><p class="bg-white rounded-full py-8 px-6 text-2xl font-extrabold text-black">95%</p></div>
+                    <div class="space-y-3 ">
+                        <h1 class="text-xl font-semibold">Experienced Coach</h1>
+                        <p class="text-[#13131899] text-base font-normal">Experienced hockey coach <br> leads triumph.</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress space-y-3 bg-[#E7E7E8] text-[#FFB546] w-28 h-28 " style="--value:90;" role="progressbar"><p class="bg-white rounded-full py-8 px-6 text-2xl font-extrabold text-black">90%</p></div>
+                    <div class="space-y-3 ">
+                        <h1 class="text-xl font-semibold">Senior Player</h1>
+                        <p class="text-[#13131899] text-base font-normal">Senior hockey player <br> mentors youth.</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress space-y-3 bg-[#E7E7E8] text-[#4C8DF1] w-28 h-28 " style="--value:80;" role="progressbar"><p class="bg-white rounded-full py-8 px-6 text-2xl font-extrabold text-black">80%</p></div>
+                    <div class="space-y-3">
+                        <h1 class="text-xl font-semibold">Training Ground</h1>
+                        <p class="text-[#13131899] text-base font-normal">Hockey training ground <br> inspires excellence.</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-[#13131833] border-dashed mt-10 lg:mt-24 ml-4 mr-4 lg:mr-0 lg:ml-0">
+        </section>
     </main>
     <footer
         class="footer p-10 bg-[#131318] text-neutral-content mt-10 lg:mt-24 lg:h-[425px] lg:flex justify-between lg:p-24 grid grid-cols-1">
